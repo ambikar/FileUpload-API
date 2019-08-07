@@ -9,7 +9,9 @@ This framework is designed with the idea of having different classes for differe
 1. Clone the repository and import in your favorite IDE
 2. After importing, right click on testng.xml file -> Run As -> TestNG Suite.
 
-The Testng.xml file maintains the list of files to be tested in a preserved order, the tests are run in that specific order.
+The Testng.xml file maintains the list of files to be tested in a preserved order, the tests are run in that specific order. 
+
+The api endpoint /files/ which is used to list the files for specific user is throwing Gateway Timeout Error hence unable to complete the testing. 
 
 ## APIUploadFile class:
 
